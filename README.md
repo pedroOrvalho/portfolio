@@ -7,4 +7,4 @@
 
 ## Requirement
 
-`https://nicepage.com/one-page-template/preview/amazing-portfolio-261875?device=desktop`
+Create a Portfolio similar to the example [here](https://nicepage.com/one-page-template/preview/amazing-portfolio-261875?device=desktop)
