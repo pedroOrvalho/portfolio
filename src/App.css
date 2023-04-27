@@ -114,7 +114,7 @@ button {
 /*-------------Portfolio---------------*/
 
 .portfolio-container {
-  background-color:  rgba(13, 14, 28, 0.614);
+  background-color:  rgba(13, 14, 28, 0.925);
   display: flex;
   flex-direction: column;
   justify-content: space-around;
