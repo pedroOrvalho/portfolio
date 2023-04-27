@@ -1,38 +1,297 @@
 .App {
-  text-align: center;
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/*------------- NavBar ---------------*/
+
+.navbar_container {
+  background-color: rgba(13, 14, 28, 0.925);
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 6rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.logo_container {
+  width: 40%;
+}
+
+.logo {
+  width: 12rem;
+  position: relative;
+  top: 4px;
+  opacity: 0.9;
+}
+
+.nav {
+    width: 30rem;
   }
+  .nav ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+  }
+  
+  .list_items {
+    text-decoration: none;
+    color:rgba(255, 255, 255, 0.85);
+    font-size: 1.2rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+/*------------- Bio ---------------*/
+.bio {
+  background-color: rgba(236, 217, 15, 0.878);
+  height: 45rem;
+}
+
+.bio-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 8rem;
+}
+
+.profile-pic {
+  width: 40rem;
+  height: 43rem;
+  padding-right: 2rem;
+}
+
+.bio-content {
+  width: 40rem;
+  display: flex;
+  align-items: center;
+  padding-left: 2rem;
+  font-family: 'Roboto Mono', monospace;
+  line-height: 3rem;
+  font-size: 1.5rem;
+}
+
+
+
+/*------------- What I Do ---------------*/
+
+.WhatIDo-container {
+  background-color: rgba(13, 14, 28, 0.925);
+  height: 50rem;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.WhatIDo-content-container {
+  width: 40%;
+  padding-bottom: 5%;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.WhatIDo-content-container h1 {
+  font-size: 5rem;
+  margin-bottom: 0;
+}
+
+.WhatIDo-content-container h2 {
+  font-size: 1.4rem;
+  margin-top: 0;
+}
+
+.WhatIDo-content-container p {
+  font-size: 1.2rem;
+  margin-top: 0;
+  padding: 10px 0;
+}
+
+button {
+  background-color: rgba(236, 217, 15, 0.878);
+  font-weight: 800;
+  border: none;
+  padding: 1rem 4rem;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+/*-------------Portfolio---------------*/
+
+.portfolio-container {
+  background-color:  rgba(13, 14, 28, 0.614);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 85rem;
+  padding: 2rem;
+}
+
+
+
+.portfolio-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px
+
+}
+
+.grid-item {
+  height: 350px;
+  width: 400px;
+}
+
+
+
+#pic1 {
+  background-image: url("./components/images/portfolio/portfolio1.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  transition: background-size 0.2s ease-in;
+}
+
+#pic1:hover {
+  background-size: 115%;
+}
+
+#pic2 {
+  background-image: url("./components/images/portfolio/portfolio2.jpg");
+  background-repeat: no-repeat;
+  background-size: 131%;
+  background-position: center;
+  transition: background-size 0.2s ease-in;
+}
+
+#pic2:hover {
+  background-size: 146%;
+}
+
+#pic3 {
+  background-image: url("./components/images/portfolio/portfolio3.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  transition: background-size 0.2s ease-in;
+}
+
+#pic3:hover {
+  background-size: 115%;
+}
+
+#pic4 {
+  background-image: url("./components/images/portfolio/portfolio4.jpg");
+  background-repeat: no-repeat;
+  background-size: 131%;
+  background-position: center;
+  transition: background-size 0.2s ease-in;
+}
+
+#pic4:hover {
+  background-size: 146%;
+}
+
+#pic5 {
+  background-image: url("./components/images/portfolio/portfolio5.jpg");
+  background-repeat: no-repeat;
+  background-size: 131%;
+  background-position: center;
+  transition: background-size 0.2s ease-in;
+}
+
+#pic5:hover {
+  background-size: 146%;
+}
+
+#pic6 {
+  background-image: url("./components/images/portfolio/portfolio6.jpg");
+  background-repeat: no-repeat;
+  background-size: 120%;
+  background-position: center;
+  transition: background-size 0.2s ease-in;
+}
+
+#pic6:hover {
+  background-size: 135%;
+}
+
+#pic7 {
+  background-image: url("./components/images/portfolio/portfolio7.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  transition: background-size 0.2s ease-in;
+}
+
+#pic7:hover {
+  background-size: 115%;
+}
+
+#pic8 {
+  background-image: url("./components/images/portfolio/portfolio8.jpg");
+  background-repeat: no-repeat;
+  background-size: 131%;
+  background-position: center;
+  transition: background-size 0.2s ease-in;
+}
+
+#pic8:hover {
+  background-size: 146%;
+}
+
+#pic9 {
+  background-image: url("./components/images/portfolio/portfolio9.jpg");
+  background-repeat: no-repeat;
+  background-size: 131%;
+  background-position: center;
+  transition: background-size 0.2s ease-in;
+}
+
+#pic9:hover {
+  background-size: 146%;
+}
+
+
+/*------------- Contact ---------------*/
+
+.contact-container {
+  display: flex;
+  background-color: rgba(236, 217, 15, 0.878);
+}
+
+.form-container {
+  width: 50%;
+  padding: 5rem 10rem;
+}
+
+.form {
+  width: 35rem;
+  background-color: inherit;
+  border: none;
+  border-bottom: 2px solid black;
+  margin: 10px;
+  padding: 20px 0px; 
+}
+
+.form-action {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+
+textarea {
+  resize: none
+}
+
+#button {
+  width: 200px;
+}
+
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 50%;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400;500;600;700&display=swap');
